@@ -10,8 +10,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #222;
-  color: #eee;
+  background-color: #283330;
+  color: #ccc;
 }
 
 main {
@@ -19,9 +19,12 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 12px;
+  text-align: justify;
+  max-width: 900px;
+  padding: 12px;
   gap: 6px;
-  max-width: 800px;
+  background-color: #4C7D71;
+  box-shadow: 0px 0px 12px gray ;
 }
 
 h1 {
@@ -29,11 +32,16 @@ h1 {
 }
 
 main p {
-  font-size: 32px;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 a {
-  color: #eee;
+  color: #ccc;
+}
+
+a:hover {
+  color: #000;
 }
 
 .title{
@@ -42,23 +50,28 @@ a {
   margin-top: 12px;
 }
 
-.mis-proyectos {
+.secction-proyectos {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  max-width: 800px;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  max-width: 900px;
   margin: 12px 0;
-  gap: 12px;
+  padding: 12px 6px;
+  gap: 6px;
+  background-color: #4C7D71;
+  border-radius: 2px;
+  box-shadow: 0px 0px 12px gray ;
 }
 
 .card-proyectos {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 290px;
   padding: 8px;
   gap: 4px;
-  border: 2px solid green;
+  border: 2px solid #000;
   border-radius: 8px;
 }
 
@@ -68,6 +81,7 @@ a {
 
 .card-proyectos img {
   width: 100%;
+  flex: 1;
   object-fit: cover;
 }
 
@@ -83,4 +97,39 @@ a {
   justify-content: space-around;
 }
 
+.card-links span{
+  border-radius: 20px;
+  background-color: #283330;
+  padding: 6px;
+}
+
+.card-links span:hover{
+  opacity: 0.8;
+}
+
+
+.card-links span:last-child{
+  display: none;
+}
+
+.info .card-links span:nth-child(1),
+.info .card-links span:nth-child(2) {
+  display: none;
+}
+
+.info .card-links span:last-child {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .secction-proyectos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .secction-proyectos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
