@@ -59,7 +59,7 @@ a:hover {
   padding: 12px 6px;
   gap: 6px;
   background-color: #4C7D71;
-  border-radius: 2px;
+  border-radius: 8px;
   box-shadow: 0px 0px 12px gray ;
 }
 
@@ -120,6 +120,39 @@ a:hover {
 .info .card-links span:last-child {
   display: block;
 }
+
+.secction-formacion {
+  max-width: 900px;
+  margin: 12px 0;
+  padding: 12px 6px;
+  gap: 6px;
+  background-color: #4C7D71;
+  border-radius: 8px;
+  box-shadow: 0px 0px 12px gray ;
+}
+
+.article-formacion {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  gap: 12px;
+}
+
+.article-formacion ul {
+  padding-left: 20px;
+  list-style: inside;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin-top: 12px;
+  padding: 12px 6px;
+  background-color: #4C7D71;
+  box-shadow: 0px 0px 12px gray ;
+}
+
 
 @media (min-width: 600px) {
   .secction-proyectos {

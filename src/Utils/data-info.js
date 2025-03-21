@@ -11,6 +11,7 @@ export const DATA_INFO = [
         description: 'Description: Proyecto creado durante el curso de Fundamentos de Rest API en Platzi',
         categori: 'mis-proyectos',
         image: '../assets/gatitosapp.png',
+        page: 'https://jesuseem.github.io/Gatitos-App/',
     },
     {
         name: 'LM35-ESP32',
@@ -18,12 +19,14 @@ export const DATA_INFO = [
         alt: 'Imagen de referencia del proyecto para usar un LM35',
         description: 'Aplicacion movil para solicitar a un ESP32 la temperatura de un sensor LM35.',
         categori: 'mis-proyectos',
+        image: '../assets/lm35-app.png',
     },
     {
         name: 'Maquina CNC',
         alt: 'Proyecto de Maquina CNC',
         description: 'Construcción de una maquina CNC para el concurso INNOVATEC 2023',
         categori: 'mis-proyectos',
+        image: '../assets/cnc.jpg',
     },
     {
         name: 'Simple-Tabs',
@@ -61,6 +64,10 @@ export const TITULOS = [
     {
         name: 'proyectos roadmap',
         title: 'Proyectos Roadmap.sh',
+    },
+    {
+        name: 'formación',
+        title: 'Formación',
     },
 ]
 
