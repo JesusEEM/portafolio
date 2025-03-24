@@ -10,7 +10,7 @@ export const DATA_INFO = [
         alt: 'Imagen de referencia sobre la pagina Gatitos App',
         description: 'Description: Proyecto creado durante el curso de Fundamentos de Rest API en Platzi',
         categori: 'mis-proyectos',
-        image: './gatitosapp.png',
+        image: './assets/gatitosapp.png',
         page: 'https://jesuseem.github.io/Gatitos-App/',
     },
     {
@@ -19,14 +19,14 @@ export const DATA_INFO = [
         alt: 'Imagen de referencia del proyecto para usar un LM35',
         description: 'Aplicacion movil para solicitar a un ESP32 la temperatura de un sensor LM35.',
         categori: 'mis-proyectos',
-        image: './lm35-app.png',
+        image: './assets/lm35-app.png',
     },
     {
         name: 'Maquina CNC',
         alt: 'Proyecto de Maquina CNC',
         description: 'Construcción de una maquina CNC para el concurso INNOVATEC 2023',
         categori: 'mis-proyectos',
-        image: './cnc.jpg',
+        image: './assets/cnc.jpg',
     },
     {
         name: 'Simple-Tabs',
@@ -34,7 +34,7 @@ export const DATA_INFO = [
         alt: 'Imagen de referencia de la App',
         description: 'Una pagina simple que consiste en 4 ventanas que se pueden intercambiar para visualirzar el contenido.',
         categori: 'roadmap',
-        image: './tabs.png',
+        image: './assets/tabs.png',
     },
     {
         name: 'Cookie Consent',
@@ -42,7 +42,7 @@ export const DATA_INFO = [
         alt: 'Imagen de referencia de la App',
         description: 'Pagina simple donde aparece un popup para aceptar cookies del navegador. La pagina hace uso de LocalStorage para guardar cuando se aceptan las cookies',
         categori: 'roadmap',
-        image: './galletitas.png',
+        image: './assets/galletitas.png',
     },
     {
         name: 'Restricted Texarea',
@@ -50,7 +50,7 @@ export const DATA_INFO = [
         alt: 'Imagen de referencia de la App',
         description: 'Pagina creada para mostrar un Textarea restringido',
         categori: 'roadmap',
-        image: './textarea.png',
+        image: './assets/textarea.png',
     },
 ]
 
