@@ -1,8 +1,9 @@
 /* Color Theme Swatches in Hex */
-.Tech-background-1-hex { color: #033159; } //background
+/* Paleta de Colores encontrada en Adoble Colors*/
+.Tech-background-1-hex { color: #033159; } /*background*/
 .Tech-background-2-hex { color: #032340; }
-.Tech-background-3-hex { color: #011826; } //background
-.Tech-background-4-hex { color: #0A89A6; }
+.Tech-background-3-hex { color: #011826; } /* main, section, footer */ 
+.Tech-background-4-hex { color: #0A89A6; } /*background */
 .Tech-background-5-hex { color: #13F2F2; }
 
 
@@ -43,6 +44,16 @@ h1 {
 main p {
   font-size: 24px;
   font-weight: 300;
+}
+
+span{
+  border-radius: 20px;
+  background-color: #0f4653;
+  padding: 6px;
+}
+
+span:hover{
+  opacity: 0.8;
 }
 
 a {
@@ -106,17 +117,6 @@ a:hover {
   justify-content: space-around;
 }
 
-.card-links span{
-  border-radius: 20px;
-  background-color: #283330;
-  padding: 6px;
-}
-
-.card-links span:hover{
-  opacity: 0.8;
-}
-
-
 .card-links span:last-child{
   display: none;
 }
@@ -134,6 +134,7 @@ a:hover {
   max-width: 900px;
   margin: 12px 0;
   padding: 12px 6px;
+  font-size: 18px;
   gap: 6px;
   background-color: #011826;
   border-radius: 8px;
@@ -155,11 +156,19 @@ a:hover {
 footer {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   max-width: 900px;
-  margin-top: 12px;
+  height: 150px;
+  margin-top: 22px;
   padding: 12px 6px;
+  font-size: 18px;
   background-color: #011826;
   box-shadow: 0px 0px 12px gray ;
+}
+
+footer div {
+  display: flex;
+  gap: 18px;
 }
 
 
